@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    background-color: #F5F5F5;
+    color: #333333;
+      
+      
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #333333;
+}
+
+/* Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Buttons */
+button {
+    background-color: #007BFF;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Borders */
+.border-light {
+    border-color: #DDDDDD;
+}
+
+/* Forms */
+input, textarea {
+    background-color: #FFFFFF;
+    color: #333333;
+    border: 2px solid #DDDDDD;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.4s;
+    
+}
+
+input:focus, textarea:focus {
+    transition: 0.4s;
+    outline: none;
+    border:2px solid #1E90FF;
+    background-color: #FFFFFF;
+}
+
+/* Alerts */
+.success {
+    color: #28A745;
+}
+
+.warning {
+    color: #FFC107;
+}
+
+.error {
+    color: #DC3545;
+}
+
+
+.topbar
+{
+    background-color: white;
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid rgb(146, 146, 146);
+}
